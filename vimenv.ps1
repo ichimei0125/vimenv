@@ -1,6 +1,7 @@
 Param($Method)
 
 $configData = Get-Content .\config.json | ConvertFrom-Json
+$nowPath = Get-Location
 
 Set-Location $configData.bundlePath
 
@@ -21,3 +22,5 @@ if ($Method -eq "install" -or $null -eq $Method) {
         }
     }
 }
+
+Set-Location $nowPath.Path
