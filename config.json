@@ -1,0 +1,7 @@
+{
+    "bundlePath": "C:\\Users\\ichimei0125\\Vim\\vimfiles\\bundle",
+    "packages": [
+        "https://github.com/scrooloose/nerdtree",
+        "https://github.com/fatih/vim-go"
+    ]
+}
