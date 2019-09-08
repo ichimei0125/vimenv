@@ -20,4 +20,5 @@ which if you use [pathogen.vim](https://github.com/tpope/vim-pathogen) as your v
 
 hope this script will help you :-)
 
-bash version will coming soon
+## shell version is simpy
+run ```vimenv.sh```
